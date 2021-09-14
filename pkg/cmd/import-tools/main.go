@@ -17,6 +17,9 @@ package main
 
 import (
 	"fmt"
+	"errors"
+	"math/rand"
+	"time"
 
 	_ "github.com/bufbuild/buf/cmd/buf"
 	_ "github.com/client9/misspell/cmd/misspell"
